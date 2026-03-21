@@ -1,5 +1,11 @@
 ## Hi there 👋
 
+- 🎓 B.Tech CSE Sophpmore @JIET
+- 🚀 Exploring Web3 & Blockchain + AI 
+- 📫 7x Hackathon winner and finalist
+- Open Source Contributor 
+
+
 <!--
 **hrshjswniii/hrshjswniii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
