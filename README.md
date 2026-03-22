@@ -1,3 +1,5 @@
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F70000&lines=Hi+there+👋+I'm+Harsh+Jeswani;Web3+Developer;Smart+Contract+Engineer)
+
 ## Hi there 👋
 
 - 🎓 B.Tech CSE Sophpmore @JIET
