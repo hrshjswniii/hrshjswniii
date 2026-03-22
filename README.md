@@ -9,8 +9,11 @@
 <p align="center">
   <a href="https://git.io/typing-svg">
     <img 
-      src="https://readme-typing-svg.demolab.com? width=100%font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Web3+Developer;Solidity+Engineer;DeFi+Builder;Smart+Contract+Developer" 
-      alt="Typing SVG" 
+      <img 
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Web3+Developer;Solidity+Engineer;DeFi+Builder;Smart+Contract+Developer" 
+  alt="Typing SVG"
+  width="80%"
+/>
     />
   </a>
 </p>
