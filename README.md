@@ -12,7 +12,7 @@
       <img 
   src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Web3+Developer;Solidity+Engineer;DeFi+Builder;Smart+Contract+Developer" 
   alt="Typing SVG"
-  width="80%"
+  width="100%"
 />
     />
   </a>
@@ -34,9 +34,9 @@
 
 <!-- ABOUT ME SECTION -->
 
-<h2 align="center">🧠 About Me</h2>
+<h2 align="left">🧠 About Me</h2>
 
-<p align="center">
+<p align="left">
   🧑‍💻 2nd Year CSE Student (India) <br/>
   🔗 Focused on Web3 & Blockchain Development <br/>
   ⚙️ Currently mastering Foundry & Smart Contract Testing <br/>
