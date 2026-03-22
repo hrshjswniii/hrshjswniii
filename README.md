@@ -1,11 +1,47 @@
-![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F70000&lines=Hi+there+👋+I'm+Harsh+Jeswani;Web3+Developer;Smart+Contract+Engineer)
+<!-- HERO SECTION -->
 
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Harsh</h1>
 
-- 🎓 B.Tech CSE Sophpmore @JIET
-- 🚀 Exploring Web3 & Blockchain + AI 
-- 📫 7x Hackathon winner and finalist
-- Open Source Contributor 
+<h3 align="center">
+  🚀 Web3 Developer | Solidity | DeFi Enthusiast
+</h3>
+
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img 
+      src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=600&lines=Web3+Developer;Solidity+Engineer;DeFi+Builder;Smart+Contract+Developer" 
+      alt="Typing SVG" 
+    />
+  </a>
+</p>
+
+<h3 align="center">
+  <i>"Building decentralized systems, not just projects"</i>
+</h3>
+
+<br/>
+
+<!-- OPTIONAL GIF (you can replace this later if you want) -->
+<p align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
+</p>
+
+<br/>
+<br/>
+
+<!-- ABOUT ME SECTION -->
+
+<h2 align="center">🧠 About Me</h2>
+
+<p align="center">
+  🧑‍💻 2nd Year CSE Student (India) <br/>
+  🔗 Focused on Web3 & Blockchain Development <br/>
+  ⚙️ Currently mastering Foundry & Smart Contract Testing <br/>
+  🏗️ Building Full Stack DApps (React + ethers.js) <br/>
+  📈 Moving towards DeFi Protocol Engineering
+</p>
+
+<br/>
 
 
 <!--
