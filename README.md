@@ -1,51 +1,18 @@
-<!-- HERO SECTION -->
-
-<h1 align="center">Hi 👋, I'm Harsh</h1>
-
-<h3 align="center">
-  🚀 Web3 Developer | Solidity | DeFi Enthusiast
-</h3>
+<!-- ===================== 🧠 HERO SECTION ===================== -->
 
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img 
-      <img 
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=00F7FF&center=true&vCenter=true&width=800&lines=Web3+Developer;Solidity+Engineer;DeFi+Builder;Smart+Contract+Developer" 
-  alt="Typing SVG"
-  width="100%"
-/>
-    />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Harsh%20Jeswani&fontSize=40&fontColor=00ffd5&animation=fadeIn&fontAlignY=35"/>
 </p>
 
-<h3 align="center">
-  <i>"Building decentralized systems, not just projects"</i>
-</h3>
-
-<br/>
-
-<!-- OPTIONAL GIF (you can replace this later if you want) -->
 <p align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FFD5&center=true&vCenter=true&width=700&lines=Ethereum+Developer+%F0%9F%94%97;Building+on+Web3+%26+Blockchain+%F0%9F%9A%80;Smart+Contracts+%7C+Solidity+%7C+Foundry;Shipping+Code+%E2%9A%A1+Learning+Fast" />
 </p>
 
-<br/>
-<br/>
-
-<!-- ABOUT ME SECTION -->
-
-<h2 align="left">🧠 About Me</h2>
-
-<p align="left">
-  🧑‍💻 2nd Year CSE Student (India) <br/>
-  🔗 Focused on Web3 & Blockchain Development <br/>
-  ⚙️ Currently mastering Foundry & Smart Contract Testing <br/>
-  🏗️ Building Full Stack DApps (React + ethers.js) <br/>
-  📈 Moving towards DeFi Protocol Engineering
+<p align="center">
+  <b>⚡ Shipping Smart Contracts. Breaking Things. Building In Public.</b>
 </p>
 
-<br/>
-
+---
 
 <!--
 **hrshjswniii/hrshjswniii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
