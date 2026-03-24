@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FFD5&center=true&vCenter=true&width=700&lines=Ethereum+Developer+%F0%9F%94%97;Building+on+Web3+%26+Blockchain+%F0%9F%9A%80;Smart+Contracts+%7C+Solidity+%7C+Foundry;Shipping+Code+%E2%9A%A1+Learning+Fast" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00FFD5&center=true&vCenter=true&width=700&lines=Ethereum+Developer+%F0%9F%94%97;Building+on+Web3+%26+Blockchain+%F0%9F%9A%80;Smart+Contracts+%7C+Solidity+%7C+Foundry;Shipping+Code+%E2%9A%A1+Building+In+Public" />
 </p>
 
 <p align="center">
