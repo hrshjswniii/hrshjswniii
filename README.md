@@ -18,7 +18,7 @@
 
 <!-- ===================== 🌐 ABOUT ME ===================== -->
 
-<h2 align="center">⚡ Building the Future on Ethereum</h2>
+<h2 align="center">⚡ ABOUT ME </h2>
 
 <p align="left">
 🚀 Sophomore CSE Student diving deep into <b>Web3 & Blockchain</b><br>
