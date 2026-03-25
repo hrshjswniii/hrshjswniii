@@ -14,6 +14,22 @@
 
 ---
 
+---
+
+<!-- ===================== 🌐 ABOUT ME ===================== -->
+
+<h2 align="center">⚡ Building the Future on Ethereum</h2>
+
+<p align="center">
+🚀 Sophomore CSE Student diving deep into <b>Web3 & Blockchain</b><br>
+🔗 Ethereum Developer focused on <b>Smart Contracts & DeFi</b><br>
+🧠 Strong foundation in <b>DSA + Java + Frontend</b><br>
+⚔️ Constantly building, breaking & leveling up
+</p>
+
+---
+
+
 <!--
 **hrshjswniii/hrshjswniii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
