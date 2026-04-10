@@ -29,6 +29,22 @@
 
 ---
 
+<!-- ===================== 🛠 TECH STACK ===================== -->
+
+<h2 align="center">🛠 Tech Arsenal</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,js,html,css,solidity,git,github,vscode" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Foundry-000000?style=for-the-badge&logo=ethereum&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Web3-0A0A0A?style=for-the-badge&logo=web3dotjs&logoColor=purple"/>
+  <img src="https://img.shields.io/badge/Blockchain-121D33?style=for-the-badge&logo=blockchaindotcom&logoColor=white"/>
+</p>
+
+---
+
 
 <!--
 **hrshjswniii/hrshjswniii** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
