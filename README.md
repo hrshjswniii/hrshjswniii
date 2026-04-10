@@ -34,7 +34,7 @@
 <h2 align="center">🛠 Tech Arsenal</h2>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,js,html,css,solidity,git,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=java,js,html,css,solidity,git,github,vscode,C,C++,Python" />
 </p>
 
 <p align="center">
