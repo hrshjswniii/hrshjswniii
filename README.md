@@ -48,9 +48,9 @@
 <h2>📊 GitHub Stats</h2>
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hrshjswniii&show_icons=true&theme=tokyonight" />
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=hrshjswniii&show_icons=true&theme=tokyonight" />
   
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hrshjswniii&layout=compact&theme=tokyonight"/>
+  <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=hrshjswniii&layout=compact&theme=tokyonight"/>
 </p>
 
 
