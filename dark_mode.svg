@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,'Fira Code',monospace" width="985px" height="540px" font-size="15px">
+<style>
+@font-face {
+src: local('Consolas'), local('Consolas Bold');
+font-family: 'ConsolasFallback';
+font-display: swap;
+-webkit-size-adjust: 109%;
+size-adjust: 109%;
+}
+.header {fill: #00ffd5; font-weight: bold;}
+.key {fill: #ffa657;}
+.value {fill: #a5d6ff;}
+.addColor {fill: #3fb950;}
+.delColor {fill: #f85149;}
+.cc {fill: #484f58;}
+.ascii {fill: #00ffd5; font-weight: bold;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="985px" height="540px" fill="#0d1117" rx="12" stroke="#30363d" stroke-width="1"/>
+<text x="15" y="30" fill="#00ffd5">
+  <tspan x="15" y="30">lmmmnnuvvvvxvr:`:::`''',',,,,,,!ml`   ..</tspan>
+  <tspan x="15" y="52">mmnnnuvvvxxwuj`,,.,,````'''',,,!ll`  ';:</tspan>
+  <tspan x="15" y="74">uuuvvvwwpu|,.         ,```'',,,!lm; .:!:</tspan>
+  <tspan x="15" y="96">xxxxxxxpl               .:``'''|uvi.:lr;</tspan>
+  <tspan x="15" y="118">ddddbbdu           ,`!`  .:``''|uvi.;nur</tspan>
+  <tspan x="15" y="140">%##%gqq|      ,';kvdMW%!  `````|uwj,.;|;</tspan>
+  <tspan x="15" y="162">W@@WM%%k   `|rvbq%qbvud%: `:::`|uwj,!xqd</tspan>
+  <tspan x="15" y="184">@@@@@W#%! 'mnj;!iuv;'|uqkjj`::`|vwk,l@@@</tspan>
+  <tspan x="15" y="206">@@@@@@WMq`'rj!;;;rgbvvdqbuv`;;:|vpr'lWWW</tspan>
+  <tspan x="15" y="228">@@@@@@@MMb'kwvwwmjnunudWdrv`;;;iwbl'l@W@</tspan>
+  <tspan x="15" y="250">@@@@@@@@M#w`jwql`,`|j|!%j'!;!;;ivpr,kW@W</tspan>
+  <tspan x="15" y="272">@@@@@@@@WM#p,.k!|nnkv%kj.'|!!!;ivpl,jWWW</tspan>
+  <tspan x="15" y="294">@@@@@@@@@W#Mb' ''i|!i;  ik!!!!;ivbm'|M@@</tspan>
+  <tspan x="15" y="316">@@@@@@@@@M##%p!.     .|uMu;|||!iwdm'`w#M</tspan>
+  <tspan x="15" y="338">@@@@@@@@WM#MWwlri:;;jv%#Mq';|i|jp%u`,ng%</tspan>
+  <tspan x="15" y="360">@@@@WWWW@@@#u.;nunkknp###@r ..,`kwm:'vMW</tspan>
+  <tspan x="15" y="382">WWWW@@@@gvk'   jvxwnmwq#WM!         .:kn</tspan>
+  <tspan x="15" y="404">@@@@Wgu!       .|npq%qbgWl              </tspan>
+  <tspan x="15" y="426">Wgvk`             'jw%gxk               </tspan>
+  <tspan x="15" y="448">;.                   ,|!                </tspan>
+</text>
+<text x="410" y="30" fill="#c9d1d9">
+  <tspan x="410" y="30" class="header">hrshjswniii@ethereum</tspan> ——————————————————————————————————
+  <tspan x="410" y="52" class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Windows 11, Web3 OS, Linux</tspan>
+  <tspan x="410" y="74" class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc" id="age_data_dots"></tspan><tspan class="value" id="age_data">21 years, 4 months, 10 days</tspan>
+  <tspan x="410" y="96" class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">CSE Sophomore @ Web3 Arch</tspan>
+  <tspan x="410" y="118" class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">Solidity 0.8.x, Foundry, EVM</tspan>
+  <tspan x="410" y="140" class="cc">. </tspan><tspan class="key">Primary Stack</tspan>:<tspan class="cc"> . . ............. </tspan><tspan class="value">Solidity, Java, C++, Python</tspan>
+  <tspan x="410" y="162" class="cc">. </tspan><tspan class="key">Target Chains</tspan>:<tspan class="cc"> ................ </tspan><tspan class="value">Ethereum, Arbitrum, Optimism</tspan>
+  <tspan x="410" y="184" class="cc">. </tspan><tspan class="key">Focus Area</tspan>:<tspan class="cc"> ................. </tspan><tspan class="value">Smart Contracts, DeFi, DSA</tspan>
+  <tspan x="410" y="206" class="cc">. </tspan><tspan class="key">GitHub Stars</tspan>:<tspan class="cc" id="star_data_dots"> ... </tspan><tspan class="value" id="star_data">14</tspan>
+  <tspan x="410" y="228" class="cc">. </tspan><tspan class="key">Repositories</tspan>:<tspan class="cc" id="repo_data_dots"> ... </tspan><tspan class="value" id="repo_data">18</tspan>
+  <tspan x="410" y="250" class="cc">. </tspan><tspan class="key">Total Commits</tspan>:<tspan class="cc" id="commit_data_dots"> ..... </tspan><tspan class="value" id="commit_data">280</tspan>
+  <tspan x="410" y="272" class="cc">. </tspan><tspan class="key">Followers</tspan>:<tspan class="cc" id="follower_data_dots"> ... </tspan><tspan class="value" id="follower_data">25</tspan>
+  <tspan x="410" y="294" class="cc">. </tspan><tspan class="key">Lines of Code</tspan>:<tspan class="cc" id="loc_data_dots"> ... </tspan><tspan class="value" id="loc_data">42,500</tspan>
+  <tspan x="410" y="316" class="cc">. </tspan><tspan class="key">  LOC Added</tspan>:<tspan class="cc" id="loc_add_dots">. </tspan><tspan class="value" id="loc_add">38,100</tspan>
+  <tspan x="410" y="338" class="cc">. </tspan><tspan class="key">  LOC Deleted</tspan>:<tspan class="cc" id="loc_del_dots">. </tspan><tspan class="value" id="loc_del">4,400</tspan>
+</text>
+</svg>
