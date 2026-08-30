@@ -135,10 +135,23 @@
 * 🏆 **7× Hackathon Winner & Finalist** across national and global Web3 hackathons.
 * 🌟 **Dev3 Pack Global Hackathon** — Selected Participant.
 
-### **Verified Certifications**
+### **Verified Certifications & Recognition Badges**
+* 🏅 **Layer5 Cloud / Meshery**: [**Design Pioneer Badge (First Design)**](https://cloud.layer5.io/user/5c8a1227-aed0-45f2-929e-95f7237a04d0?tab=badges&badge=first-design) (*Verified*)
 * 📜 **Cyfrin Updraft**: Smart Contract Development (*April 2026*)
 * 📜 **Cyfrin Updraft**: Foundry 101 (*March 2026*)
 * 📜 **Binance Academy**: Blockchain Fundamentals (*January 2026*)
+
+<br/>
+
+<div align="center">
+  <a href="https://cloud.layer5.io/user/5c8a1227-aed0-45f2-929e-95f7237a04d0?tab=badges&badge=first-design">
+    <img src="meshery%20badge.png" alt="Layer5 Meshery Design Pioneer Badge" width="220" />
+  </a>
+  <br/>
+  <a href="https://cloud.layer5.io/user/5c8a1227-aed0-45f2-929e-95f7237a04d0?tab=badges&badge=first-design">
+    <img src="https://img.shields.io/badge/Layer5%20Cloud-Design%20Pioneer-00d3a9?style=for-the-badge&logo=meshery&logoColor=white" alt="Verify Layer5 Badge" />
+  </a>
+</div>
 
 ---
 
