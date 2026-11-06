@@ -7,10 +7,12 @@ import time
 import hashlib
 
 # Fine-grained or standard personal access token
-ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', '')
+ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', '').strip()
 USER_NAME = os.environ.get('USER_NAME', 'hrshjswniii')
 
-HEADERS = {'authorization': f'token {ACCESS_TOKEN}'} if ACCESS_TOKEN else {}
+# GitHub accepts 'Bearer <token>' for all tokens (recommended, required for fine-grained tokens)
+auth_header_val = ACCESS_TOKEN if ACCESS_TOKEN.startswith(('Bearer ', 'token ')) else f'Bearer {ACCESS_TOKEN}'
+HEADERS = {'authorization': auth_header_val} if ACCESS_TOKEN else {}
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'graph_commits': 0}
 
 def daily_readme(birthday):
@@ -30,11 +32,21 @@ def format_plural(unit):
 
 def simple_request(func_name, query, variables):
     if not ACCESS_TOKEN:
+        print(f"No ACCESS_TOKEN provided; using default fallback for {func_name}.")
         return None
     try:
-        request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables': variables}, headers=HEADERS, timeout=10)
-        if request.status_code == 200:
-            return request
+        response = requests.post(
+            'https://api.github.com/graphql',
+            json={'query': query, 'variables': variables},
+            headers=HEADERS,
+            timeout=10
+        )
+        if response.status_code == 200:
+            res_json = response.json()
+            if 'errors' in res_json:
+                print(f"GraphQL returned error warnings in {func_name}: {res_json['errors']}")
+            return res_json
+        print(f"Request failed in {func_name}: HTTP {response.status_code} - {response.text}")
     except Exception as e:
         print(f"Request failed in {func_name}: {e}")
     return None
@@ -54,9 +66,14 @@ def graph_commits():
             }
         }
     }'''
-    req = simple_request('graph_commits', query, {'start_date': start_date, 'end_date': end_date, 'login': USER_NAME})
-    if req and req.json().get('data'):
-        return req.json()['data']['user']['contributionsCollection']['contributionCalendar']['totalContributions']
+    try:
+        data = simple_request('graph_commits', query, {'start_date': start_date, 'end_date': end_date, 'login': USER_NAME})
+        if data and isinstance(data, dict):
+            user = (data.get('data') or {}).get('user')
+            if user and 'contributionsCollection' in user:
+                return user['contributionsCollection']['contributionCalendar']['totalContributions']
+    except Exception as e:
+        print(f"Error in graph_commits: {e}")
     return 280
 
 def graph_repos_stars():
@@ -74,12 +91,17 @@ def graph_repos_stars():
             }
         }
     }'''
-    req = simple_request('graph_repos_stars', query, {'login': USER_NAME})
-    if req and req.json().get('data'):
-        user_data = req.json()['data']['user']
-        repos_count = user_data['repositories']['totalCount']
-        stars_count = sum(node['stargazers']['totalCount'] for node in user_data['repositories']['nodes'])
-        return repos_count, stars_count
+    try:
+        data = simple_request('graph_repos_stars', query, {'login': USER_NAME})
+        if data and isinstance(data, dict):
+            user = (data.get('data') or {}).get('user')
+            if user and 'repositories' in user:
+                repos_count = user['repositories'].get('totalCount', 18)
+                nodes = user['repositories'].get('nodes', [])
+                stars_count = sum(node.get('stargazers', {}).get('totalCount', 0) for node in nodes)
+                return repos_count, stars_count
+    except Exception as e:
+        print(f"Error in graph_repos_stars: {e}")
     return 18, 14
 
 def follower_getter():
@@ -92,9 +114,14 @@ def follower_getter():
             }
         }
     }'''
-    req = simple_request('follower_getter', query, {'login': USER_NAME})
-    if req and req.json().get('data'):
-        return req.json()['data']['user']['followers']['totalCount']
+    try:
+        data = simple_request('follower_getter', query, {'login': USER_NAME})
+        if data and isinstance(data, dict):
+            user = (data.get('data') or {}).get('user')
+            if user and 'followers' in user:
+                return user['followers'].get('totalCount', 25)
+    except Exception as e:
+        print(f"Error in follower_getter: {e}")
     return 25
 
 def query_count(funct_id):
